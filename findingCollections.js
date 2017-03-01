@@ -20,3 +20,9 @@ MarioChar.find({name : "mario"})  //if we don't pass any criteria it will return
 
 MarioChar.findOne({name : "mario"})  //if we don't pass any criteria it will return all
 .then(function(result){}); // requests to the database are async that's why we are creating promises to run once we receive the data
+
+
+// finding by id
+
+MarioChar.findOne({_id : Char._id})  
+.then(function(result){});
