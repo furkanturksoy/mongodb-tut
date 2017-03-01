@@ -1,0 +1,5 @@
+1. we need to  decide which drive we want it to install // this part is important
+2. we need to create a folder to store data C:/data/db will be created manually
+3. run mongod.exe in the download folder it must work in the background to work
+4. mongoose is the orm for the mongo we need to download npm install mongoose --save
+
